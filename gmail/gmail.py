@@ -184,3 +184,5 @@ class Gmail():
 
     def mail_domain(self):
         return self.username.split('@')[-1]
+    def __del__(self):
+        pass
